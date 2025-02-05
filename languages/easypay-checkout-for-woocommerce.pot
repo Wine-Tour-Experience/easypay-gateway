@@ -1,0 +1,578 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce easypay Gateway Checkout\n"
+"POT-Creation-Date: 2024-07-20 20:51+0200\n"
+"PO-Revision-Date: 2024-02-02 02:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: easypay-checkout.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: src/node_modules\n"
+
+#: easypay-checkout.php:63
+msgid "Order is pending payment"
+msgstr ""
+
+#: easypay-checkout.php:64
+msgid "Order is on hold"
+msgstr ""
+
+#: easypay-checkout.php:67
+msgid "Order status updated"
+msgstr ""
+
+#: easypay-checkout.php:327
+msgid "Settings"
+msgstr ""
+
+#: easypay-checkout.php:340
+msgid "Easypay Payment"
+msgstr ""
+
+#: easypay-checkout.php:354 includes/wc-gateway-creditcard-checkout.php:208
+msgid "Visa&Mastercard Card"
+msgstr ""
+
+#: easypay-checkout.php:356 includes/wc-gateway-debitodireto-checkout.php:209
+msgid "Direct Debit"
+msgstr ""
+
+#: easypay-checkout.php:358
+msgid "Multibanco Reference"
+msgstr ""
+
+#: easypay-checkout.php:360 includes/wc-gateway-mbway-checkout.php:75
+#: includes/wc-gateway-mbway-checkout.php:211
+msgid "MB Way"
+msgstr ""
+
+#: easypay-checkout.php:362
+#: includes/wc-gateway-santanderconsumer-checkout.php:77
+#: includes/wc-gateway-santanderconsumer-checkout.php:212
+msgid "Santander Consumer Finance"
+msgstr ""
+
+#: easypay-checkout.php:364 includes/wc-gateway-universoflex-checkout.php:210
+msgid "Universo Flex"
+msgstr ""
+
+#: easypay-checkout.php:366 includes/wc-gateway-virtualiban-checkout.php:209
+msgid "Virtual IBAN (Bank Transfer)"
+msgstr ""
+
+#: easypay-checkout.php:368 includes/wc-gateway-applepay-checkout.php:209
+msgid "Apple Pay"
+msgstr ""
+
+#: easypay-checkout.php:494
+msgid ""
+"WooCommerce easypay Gateway Checkout depends on the last version of "
+"WooCommerce to work!"
+msgstr ""
+
+#: easypay-checkout.php:665 easypay-checkout.php:676
+msgid "easypay Supported Payment Methods"
+msgstr ""
+
+#: easypay-checkout.php:727
+msgid "An error has occurred. Please, "
+msgstr ""
+
+#: easypay-checkout.php:728
+msgid "try again"
+msgstr ""
+
+#: easypay-checkout.php:729
+msgid "Check your orders."
+msgstr ""
+
+#: easypay-checkout.php:730
+msgid "The order has already been paid."
+msgstr ""
+
+#: includes/wc-gateway-applepay-checkout.php:51
+#: includes/woocommerce-blocks/applepay/src/index.js:2
+msgid "Apple Pay (easypay)"
+msgstr ""
+
+#: includes/wc-gateway-applepay-checkout.php:53
+#: includes/wc-gateway-applepay-checkout.php:221
+msgid ""
+"Enter the payment information and receive a notification in the Apple Pay "
+"app to approve."
+msgstr ""
+
+#: includes/wc-gateway-applepay-checkout.php:191
+#: includes/wc-gateway-creditcard-checkout.php:190
+#: includes/wc-gateway-debitodireto-checkout.php:191
+#: includes/wc-gateway-easypay-checkout.php:203
+#: includes/wc-gateway-mbway-checkout.php:193
+#: includes/wc-gateway-multibanco-checkout.php:191
+#: includes/wc-gateway-santanderconsumer-checkout.php:194
+#: includes/wc-gateway-universoflex-checkout.php:192
+#: includes/wc-gateway-virtualiban-checkout.php:191
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/wc-gateway-applepay-checkout.php:195
+msgid "Enable Apple Pay Payment Gateway."
+msgstr ""
+
+#: includes/wc-gateway-applepay-checkout.php:203
+#: includes/wc-gateway-creditcard-checkout.php:202
+#: includes/wc-gateway-debitodireto-checkout.php:203
+#: includes/wc-gateway-easypay-checkout.php:215
+#: includes/wc-gateway-mbway-checkout.php:205
+#: includes/wc-gateway-multibanco-checkout.php:203
+#: includes/wc-gateway-santanderconsumer-checkout.php:206
+#: includes/wc-gateway-universoflex-checkout.php:204
+#: includes/wc-gateway-virtualiban-checkout.php:203
+msgid "Title"
+msgstr ""
+
+#: includes/wc-gateway-applepay-checkout.php:207
+#: includes/wc-gateway-creditcard-checkout.php:206
+#: includes/wc-gateway-debitodireto-checkout.php:207
+#: includes/wc-gateway-easypay-checkout.php:219
+#: includes/wc-gateway-mbway-checkout.php:209
+#: includes/wc-gateway-multibanco-checkout.php:207
+#: includes/wc-gateway-santanderconsumer-checkout.php:210
+#: includes/wc-gateway-universoflex-checkout.php:208
+#: includes/wc-gateway-virtualiban-checkout.php:207
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/wc-gateway-applepay-checkout.php:217
+#: includes/wc-gateway-creditcard-checkout.php:216
+#: includes/wc-gateway-debitodireto-checkout.php:217
+#: includes/wc-gateway-easypay-checkout.php:229
+#: includes/wc-gateway-mbway-checkout.php:219
+#: includes/wc-gateway-multibanco-checkout.php:217
+#: includes/wc-gateway-santanderconsumer-checkout.php:220
+#: includes/wc-gateway-universoflex-checkout.php:218
+#: includes/wc-gateway-virtualiban-checkout.php:217
+msgid "Customer Message"
+msgstr ""
+
+#: includes/wc-gateway-applepay-checkout.php:251
+msgid "Apple Pay Settings"
+msgstr ""
+
+#: includes/wc-gateway-applepay-checkout.php:253
+msgid "Apple Pay standard works by sending the user to payment information."
+msgstr ""
+
+#: includes/wc-gateway-creditcard-checkout.php:50
+#: includes/woocommerce-blocks/creditcard/src/index.js:2
+msgid "Visa&Mastercard Card (easypay)"
+msgstr ""
+
+#: includes/wc-gateway-creditcard-checkout.php:52
+#: includes/wc-gateway-creditcard-checkout.php:220
+msgid "Easy and safe payment"
+msgstr ""
+
+#: includes/wc-gateway-creditcard-checkout.php:194
+msgid "Enable Visa & Mastercard Card Payment."
+msgstr ""
+
+#: includes/wc-gateway-creditcard-checkout.php:250
+msgid "Visa & Mastercard Card Settings"
+msgstr ""
+
+#: includes/wc-gateway-creditcard-checkout.php:252
+msgid ""
+"To pay with Visa & Mastercard, you just need to enter your payment "
+"information."
+msgstr ""
+
+#: includes/wc-gateway-debitodireto-checkout.php:51
+#: includes/woocommerce-blocks/debitodireto/src/index.js:2
+msgid "Direct Debit (easypay)"
+msgstr ""
+
+#: includes/wc-gateway-debitodireto-checkout.php:53
+#: includes/wc-gateway-debitodireto-checkout.php:221
+msgid "Pay with Direct Debit"
+msgstr ""
+
+#: includes/wc-gateway-debitodireto-checkout.php:195
+msgid "Enable Direct Debit Payment."
+msgstr ""
+
+#: includes/wc-gateway-debitodireto-checkout.php:251
+msgid "Direct Debit Settings"
+msgstr ""
+
+#: includes/wc-gateway-debitodireto-checkout.php:253
+msgid "For a simple direct debit from your bank account."
+msgstr ""
+
+#: includes/wc-gateway-easypay-checkout.php:63
+#: includes/wc-gateway-easypay-checkout.php:221
+msgid "easypay Checkout"
+msgstr ""
+
+#: includes/wc-gateway-easypay-checkout.php:65
+#: includes/wc-gateway-easypay-checkout.php:233
+msgid ""
+"Pay with MB Way, Ref. Multibanco, Visa & Mastercard Cards, Apple Pay, "
+"Santander Consumer Finance"
+msgstr ""
+
+#: includes/wc-gateway-easypay-checkout.php:207
+msgid "Enable easypay Payment Gateway."
+msgstr ""
+
+#. Author of the plugin/theme
+#: includes/wc-gateway-easypay-settings.php:57
+#: includes/wc-gateway-easypay-settings.php:59
+msgid "easypay"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:116
+#: includes/wc-gateway-easypay-settings.php:459
+msgid "SANDBOX"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:128
+msgid "General Settings"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:142
+msgid "Connection Key"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:159
+msgid "easypay Sandbox"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:170
+msgid "Enable easypay sandbox"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:182
+msgid "Multiple Checkout - one per payment method"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:193
+msgid "Enable easypay Multiple Checkout"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:207
+msgid "Force Multiple Checkout"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:212
+msgid "Force all easypay payments"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:213
+msgid ""
+"If the separately contracted payment methods do not appear, choose this "
+"option to force easypay payment methods to appear"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:224
+msgid "easypay Logo"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:242
+msgid "Upload your custom logo"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:257
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:267
+msgid "Remove"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:286
+msgid "Checkout Display"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:298
+msgid "Inline"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:302
+msgid "Popup"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:316
+msgid "Checkout Info Details"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:328
+msgid "Hide Details"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:332
+msgid "Show Details"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:345
+msgid "Order status before payment is completed"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:356
+msgid "Pending"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:359
+msgid "On Hold"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:379
+#: includes/wc-gateway-easypay-settings.php:395
+msgid "Payments Settings"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:387
+msgid "Go to the WooCommerce settings to manage the payment methods"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:409
+msgid "easypay Configurations"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:417
+msgid "Configurations that you must perform on your easypay account."
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:421
+msgid "Go to \"Webservices\" > \"URL Configuration\""
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:433
+msgid "Store Connection"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:441
+msgid "Go to the easypay backoffice and link your store."
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:444
+msgid "Note:"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:445
+msgid ""
+"If the sandbox checkbox is active, you are establishing a connection within "
+"the sandbox platform."
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:455
+msgid "View / Create Connection"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:459
+msgid "PRODUCTION"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:481
+msgid "Tutorial"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:489
+msgid ""
+"Click the link to view the full tutorial on how to configure the plugin."
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:497
+msgid "View Tutorial"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:509
+msgid "Save Settings"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:549
+msgid "Error: Please fill the required field: Connection Key."
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:610
+msgid "Your settings have been saved."
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:636
+msgid "Payment Methods Image"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:638
+msgid "Choose Image"
+msgstr ""
+
+#: includes/wc-gateway-easypay-settings.php:750
+msgid "Payment Methods and Plugin Settings Added successfully"
+msgstr ""
+
+#: includes/wc-gateway-mbway-checkout.php:51
+#: includes/woocommerce-blocks/mbway/src/index.js:2
+msgid "MB Way (easypay)"
+msgstr ""
+
+#: includes/wc-gateway-mbway-checkout.php:53
+#: includes/wc-gateway-mbway-checkout.php:223
+msgid "Automatic payment with approval in the MB Way app."
+msgstr ""
+
+#: includes/wc-gateway-mbway-checkout.php:197
+msgid "Enable MB Way Payment Gateway."
+msgstr ""
+
+#: includes/wc-gateway-mbway-checkout.php:253
+msgid "MB Way Settings"
+msgstr ""
+
+#: includes/wc-gateway-mbway-checkout.php:255
+msgid ""
+"Enter the payment information and receive a notification in the MB Way app "
+"to approve."
+msgstr ""
+
+#: includes/wc-gateway-multibanco-checkout.php:51
+msgid "Multibanco Reference (easypay)"
+msgstr ""
+
+#: includes/wc-gateway-multibanco-checkout.php:53
+#: includes/wc-gateway-multibanco-checkout.php:221
+msgid ""
+"Receive a Multibanco reference that you can pay through your online banking "
+"or at an ATM"
+msgstr ""
+
+#: includes/wc-gateway-multibanco-checkout.php:195
+msgid "Enable Ref. Multibanco Payment."
+msgstr ""
+
+#: includes/wc-gateway-multibanco-checkout.php:209
+msgid "Payment with Ref. Multibanco"
+msgstr ""
+
+#: includes/wc-gateway-multibanco-checkout.php:251
+msgid "Ref. Multibanco Settings"
+msgstr ""
+
+#: includes/wc-gateway-multibanco-checkout.php:253
+msgid "Ref. Multibanco works by giving the user the payment information."
+msgstr ""
+
+#: includes/wc-gateway-santanderconsumer-checkout.php:52
+#: includes/woocommerce-blocks/santanderconsumer/src/index.js:2
+msgid "Santander Consumer Finance (easypay)"
+msgstr ""
+
+#: includes/wc-gateway-santanderconsumer-checkout.php:54
+#: includes/wc-gateway-santanderconsumer-checkout.php:224
+msgid ""
+"Pay with online credit in a simple and fast way directly with Santander "
+"Consumer Finance."
+msgstr ""
+
+#: includes/wc-gateway-santanderconsumer-checkout.php:198
+msgid "Enable Santander Consumer Payment."
+msgstr ""
+
+#: includes/wc-gateway-santanderconsumer-checkout.php:254
+msgid "Santander Consumer Finance Settings"
+msgstr ""
+
+#: includes/wc-gateway-santanderconsumer-checkout.php:256
+msgid ""
+"Santander Consumer standard works by sending the user to Santander Consumer "
+"Finance APP."
+msgstr ""
+
+#: includes/wc-gateway-universoflex-checkout.php:52
+#: includes/woocommerce-blocks/universoflex/src/index.js:2
+msgid "Universo Flex (easypay)"
+msgstr ""
+
+#: includes/wc-gateway-universoflex-checkout.php:54
+#: includes/wc-gateway-universoflex-checkout.php:222
+msgid ""
+"Installment payment in 3X interest-free or 6/12X with interest directly "
+"through the Universo app"
+msgstr ""
+
+#: includes/wc-gateway-universoflex-checkout.php:196
+msgid "Enable Universo Flex Payment."
+msgstr ""
+
+#: includes/wc-gateway-universoflex-checkout.php:252
+msgid "Universo Flex Settings"
+msgstr ""
+
+#: includes/wc-gateway-universoflex-checkout.php:254
+msgid "Universo Flex standard works by sending the user to Universo APP."
+msgstr ""
+
+#: includes/wc-gateway-virtualiban-checkout.php:51
+#: includes/woocommerce-blocks/virtualiban/src/index.js:2
+msgid "Virtual IBAN (easypay)"
+msgstr ""
+
+#: includes/wc-gateway-virtualiban-checkout.php:53
+#: includes/wc-gateway-virtualiban-checkout.php:221
+msgid "A simple bank transfer"
+msgstr ""
+
+#: includes/wc-gateway-virtualiban-checkout.php:195
+msgid "Enable Virtual IBAN Payment Gateway."
+msgstr ""
+
+#: includes/wc-gateway-virtualiban-checkout.php:251
+msgid "Virtual IBAN Settings"
+msgstr ""
+
+#: includes/wc-gateway-virtualiban-checkout.php:253
+msgid ""
+"Receive the IBAN to make a bank transfer, without the need to send a payment "
+"receipt."
+msgstr ""
+
+#: includes/woocommerce-blocks/easypay/src/index.js:2
+msgid "easypay standard Checkout"
+msgstr ""
+
+#: includes/woocommerce-blocks/multibanco/src/index.js:2
+msgid "Multibanco (easypay)"
+msgstr ""
+
+#: public/easypay-form.php:25
+msgid "Invalid order details"
+msgstr ""
+
+#: public/easypay-form.php:42
+msgid "Pay Now"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "easypay Gateway Checkout for WooCommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"easypay Payment Checkout for WooCommerce - Don't leave for tomorrow what you "
+"can receive today"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://easypay.pt/en"
+msgstr ""

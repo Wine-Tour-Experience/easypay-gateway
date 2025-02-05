@@ -1,0 +1,884 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce easypay Gateway Checkout\n"
+"POT-Creation-Date: 2024-07-20 20:52+0200\n"
+"PO-Revision-Date: 2024-07-20 20:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: easypay-checkout.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: src/node_modules\n"
+
+#: easypay-checkout.php:63
+msgid "Order is pending payment"
+msgstr "Pagamento Pendente"
+
+#: easypay-checkout.php:64
+msgid "Order is on hold"
+msgstr "Encomenda em espera"
+
+#: easypay-checkout.php:67
+msgid "Order status updated"
+msgstr "Estado da encomenda autalizado"
+
+#: easypay-checkout.php:327
+msgid "Settings"
+msgstr "Configurações"
+
+#: easypay-checkout.php:340
+msgid "Easypay Payment"
+msgstr "Pagamento easypay"
+
+#: easypay-checkout.php:354 includes/wc-gateway-creditcard-checkout.php:208
+msgid "Visa&Mastercard Card"
+msgstr "Cartão Visa & Mastercard"
+
+#: easypay-checkout.php:356 includes/wc-gateway-debitodireto-checkout.php:209
+msgid "Direct Debit"
+msgstr "Débito Direto"
+
+#: easypay-checkout.php:358
+msgid "Multibanco Reference"
+msgstr "Referência Multibanco"
+
+#: easypay-checkout.php:360 includes/wc-gateway-mbway-checkout.php:75
+#: includes/wc-gateway-mbway-checkout.php:211
+msgid "MB Way"
+msgstr "MB Way"
+
+#: easypay-checkout.php:362
+#: includes/wc-gateway-santanderconsumer-checkout.php:77
+#: includes/wc-gateway-santanderconsumer-checkout.php:212
+msgid "Santander Consumer Finance"
+msgstr "Santander Consumer Finance"
+
+#: easypay-checkout.php:364 includes/wc-gateway-universoflex-checkout.php:210
+msgid "Universo Flex"
+msgstr "Universo Flex"
+
+#: easypay-checkout.php:366 includes/wc-gateway-virtualiban-checkout.php:209
+msgid "Virtual IBAN (Bank Transfer)"
+msgstr "IBAN Digital (Transferência Bancária)"
+
+#: easypay-checkout.php:368 includes/wc-gateway-applepay-checkout.php:209
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: easypay-checkout.php:494
+msgid ""
+"WooCommerce easypay Gateway Checkout depends on the last version of "
+"WooCommerce to work!"
+msgstr ""
+"WooCommerce easypay Gateway Checkout depende da última versão do WooCommerce "
+"para funcionar!"
+
+#: easypay-checkout.php:665 easypay-checkout.php:676
+msgid "easypay Supported Payment Methods"
+msgstr "Meios de pagamento suportados pela easypay"
+
+#: easypay-checkout.php:727
+msgid "An error has occurred. Please, "
+msgstr "Ocorreu um erro. Por favor, "
+
+#: easypay-checkout.php:728
+msgid "try again"
+msgstr "tente novamente"
+
+#: easypay-checkout.php:729
+msgid "Check your orders."
+msgstr "Verifique as suas encomendas."
+
+#: easypay-checkout.php:730
+msgid "The order has already been paid."
+msgstr "A encomenda já foi paga."
+
+#: includes/wc-gateway-applepay-checkout.php:51
+#: includes/woocommerce-blocks/applepay/src/index.js:2
+msgid "Apple Pay (easypay)"
+msgstr "Apple Pay (easypay)"
+
+#: includes/wc-gateway-applepay-checkout.php:53
+#: includes/wc-gateway-applepay-checkout.php:221
+msgid ""
+"Enter the payment information and receive a notification in the Apple Pay "
+"app to approve."
+msgstr ""
+"Insira a informação para o pagamento e receba uma notificação na App Apple "
+"Pay para aprovar."
+
+#: includes/wc-gateway-applepay-checkout.php:191
+#: includes/wc-gateway-creditcard-checkout.php:190
+#: includes/wc-gateway-debitodireto-checkout.php:191
+#: includes/wc-gateway-easypay-checkout.php:203
+#: includes/wc-gateway-mbway-checkout.php:193
+#: includes/wc-gateway-multibanco-checkout.php:191
+#: includes/wc-gateway-santanderconsumer-checkout.php:194
+#: includes/wc-gateway-universoflex-checkout.php:192
+#: includes/wc-gateway-virtualiban-checkout.php:191
+msgid "Enable/Disable"
+msgstr "Ativar / Desativar"
+
+#: includes/wc-gateway-applepay-checkout.php:195
+msgid "Enable Apple Pay Payment Gateway."
+msgstr "Ativar a gateway de pagamento Apple Pay."
+
+#: includes/wc-gateway-applepay-checkout.php:203
+#: includes/wc-gateway-creditcard-checkout.php:202
+#: includes/wc-gateway-debitodireto-checkout.php:203
+#: includes/wc-gateway-easypay-checkout.php:215
+#: includes/wc-gateway-mbway-checkout.php:205
+#: includes/wc-gateway-multibanco-checkout.php:203
+#: includes/wc-gateway-santanderconsumer-checkout.php:206
+#: includes/wc-gateway-universoflex-checkout.php:204
+#: includes/wc-gateway-virtualiban-checkout.php:203
+msgid "Title"
+msgstr "Título"
+
+#: includes/wc-gateway-applepay-checkout.php:207
+#: includes/wc-gateway-creditcard-checkout.php:206
+#: includes/wc-gateway-debitodireto-checkout.php:207
+#: includes/wc-gateway-easypay-checkout.php:219
+#: includes/wc-gateway-mbway-checkout.php:209
+#: includes/wc-gateway-multibanco-checkout.php:207
+#: includes/wc-gateway-santanderconsumer-checkout.php:210
+#: includes/wc-gateway-universoflex-checkout.php:208
+#: includes/wc-gateway-virtualiban-checkout.php:207
+msgid "This controls the title which the user sees during checkout."
+msgstr "Aqui pode controlar o título que o utilizador vê durante o checkout."
+
+#: includes/wc-gateway-applepay-checkout.php:217
+#: includes/wc-gateway-creditcard-checkout.php:216
+#: includes/wc-gateway-debitodireto-checkout.php:217
+#: includes/wc-gateway-easypay-checkout.php:229
+#: includes/wc-gateway-mbway-checkout.php:219
+#: includes/wc-gateway-multibanco-checkout.php:217
+#: includes/wc-gateway-santanderconsumer-checkout.php:220
+#: includes/wc-gateway-universoflex-checkout.php:218
+#: includes/wc-gateway-virtualiban-checkout.php:217
+msgid "Customer Message"
+msgstr "Mensagem ao Cliente"
+
+#: includes/wc-gateway-applepay-checkout.php:251
+msgid "Apple Pay Settings"
+msgstr "Configurações Apple Pay"
+
+#: includes/wc-gateway-applepay-checkout.php:253
+msgid "Apple Pay standard works by sending the user to payment information."
+msgstr "Pagamento automático com aprovação na App Apple Pay."
+
+#: includes/wc-gateway-creditcard-checkout.php:50
+#: includes/woocommerce-blocks/creditcard/src/index.js:2
+msgid "Visa&Mastercard Card (easypay)"
+msgstr "Cartão Visa & Mastercard (easypay)"
+
+#: includes/wc-gateway-creditcard-checkout.php:52
+#: includes/wc-gateway-creditcard-checkout.php:220
+msgid "Easy and safe payment"
+msgstr "Pagamento fácil e seguro"
+
+#: includes/wc-gateway-creditcard-checkout.php:194
+msgid "Enable Visa & Mastercard Card Payment."
+msgstr "Ativar o pagamento com Cartão Visa & Mastercard."
+
+#: includes/wc-gateway-creditcard-checkout.php:250
+msgid "Visa & Mastercard Card Settings"
+msgstr "Configurações do Cartão Visa & Mastercard"
+
+#: includes/wc-gateway-creditcard-checkout.php:252
+msgid ""
+"To pay with Visa & Mastercard, you just need to enter your payment "
+"information."
+msgstr ""
+"Para pagar com o Cartão Visa & Mastercard apenas terá que introduzir as suas "
+"informações para pagamento."
+
+#: includes/wc-gateway-debitodireto-checkout.php:51
+#: includes/woocommerce-blocks/debitodireto/src/index.js:2
+msgid "Direct Debit (easypay)"
+msgstr "Débito Direto (easypay)"
+
+#: includes/wc-gateway-debitodireto-checkout.php:53
+#: includes/wc-gateway-debitodireto-checkout.php:221
+msgid "Pay with Direct Debit"
+msgstr "Pague com Débito Direto"
+
+#: includes/wc-gateway-debitodireto-checkout.php:195
+msgid "Enable Direct Debit Payment."
+msgstr "Ativar o pagamento por Débito Direto."
+
+#: includes/wc-gateway-debitodireto-checkout.php:251
+msgid "Direct Debit Settings"
+msgstr "Configurações de Débito Direto"
+
+#: includes/wc-gateway-debitodireto-checkout.php:253
+msgid "For a simple direct debit from your bank account."
+msgstr "Para uma cobrança simples diretamente na sua conta bancária."
+
+#: includes/wc-gateway-easypay-checkout.php:63
+#: includes/wc-gateway-easypay-checkout.php:221
+msgid "easypay Checkout"
+msgstr "Checkout easypay"
+
+#: includes/wc-gateway-easypay-checkout.php:65
+#: includes/wc-gateway-easypay-checkout.php:233
+msgid ""
+"Pay with MB Way, Ref. Multibanco, Visa & Mastercard Cards, Apple Pay, "
+"Santander Consumer Finance"
+msgstr ""
+"Pague com MB Way, Ref. Multibanco, Cartões Visa & Mastercard, Apple Pay, "
+"Santander Consumer Finance"
+
+#: includes/wc-gateway-easypay-checkout.php:207
+msgid "Enable easypay Payment Gateway."
+msgstr "Ativar a gateway de pagamento da easypay."
+
+#. Author of the plugin/theme
+#: includes/wc-gateway-easypay-settings.php:57
+#: includes/wc-gateway-easypay-settings.php:59
+msgid "easypay"
+msgstr "easypay"
+
+#: includes/wc-gateway-easypay-settings.php:116
+#: includes/wc-gateway-easypay-settings.php:459
+msgid "SANDBOX"
+msgstr "SANDBOX"
+
+#: includes/wc-gateway-easypay-settings.php:128
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: includes/wc-gateway-easypay-settings.php:142
+msgid "Connection Key"
+msgstr "Chave de Ligação"
+
+#: includes/wc-gateway-easypay-settings.php:159
+msgid "easypay Sandbox"
+msgstr "Sandbox easypay"
+
+#: includes/wc-gateway-easypay-settings.php:170
+msgid "Enable easypay sandbox"
+msgstr "Ativar sandbox easypay"
+
+#: includes/wc-gateway-easypay-settings.php:182
+msgid "Multiple Checkout - one per payment method"
+msgstr "Meios de Pagamento Separados"
+
+#: includes/wc-gateway-easypay-settings.php:193
+msgid "Enable easypay Multiple Checkout"
+msgstr "Ativar checkout de meios de pagamento separados"
+
+#: includes/wc-gateway-easypay-settings.php:207
+msgid "Force Multiple Checkout"
+msgstr "Forçar Pagamentos Separados"
+
+#: includes/wc-gateway-easypay-settings.php:212
+msgid "Force all easypay payments"
+msgstr "Forçar todos os pagamentos easypay"
+
+#: includes/wc-gateway-easypay-settings.php:213
+msgid ""
+"If the separately contracted payment methods do not appear, choose this "
+"option to force easypay payment methods to appear"
+msgstr ""
+"Se não aparecer os meios de pagamentos em separado contratados, escolha esta "
+"opção"
+
+#: includes/wc-gateway-easypay-settings.php:224
+msgid "easypay Logo"
+msgstr "Logo easypay"
+
+#: includes/wc-gateway-easypay-settings.php:242
+msgid "Upload your custom logo"
+msgstr "Carregar imagem personalizada"
+
+#: includes/wc-gateway-easypay-settings.php:257
+msgid "Upload Logo"
+msgstr "Carregar Imagem"
+
+#: includes/wc-gateway-easypay-settings.php:267
+msgid "Remove"
+msgstr "Remover"
+
+#: includes/wc-gateway-easypay-settings.php:286
+msgid "Checkout Display"
+msgstr "Apresentação do checkout"
+
+#: includes/wc-gateway-easypay-settings.php:298
+msgid "Inline"
+msgstr "Inserido na Página"
+
+#: includes/wc-gateway-easypay-settings.php:302
+msgid "Popup"
+msgstr "Em Popup"
+
+#: includes/wc-gateway-easypay-settings.php:316
+msgid "Checkout Info Details"
+msgstr "Detalhes do Pagamento"
+
+#: includes/wc-gateway-easypay-settings.php:328
+msgid "Hide Details"
+msgstr "Ocultar Detalhes"
+
+#: includes/wc-gateway-easypay-settings.php:332
+msgid "Show Details"
+msgstr "Mostrar Detalhes"
+
+#: includes/wc-gateway-easypay-settings.php:345
+msgid "Order status before payment is completed"
+msgstr "Estado da encomenda antes de ser efetivamente paga"
+
+#: includes/wc-gateway-easypay-settings.php:356
+msgid "Pending"
+msgstr "Pendente"
+
+#: includes/wc-gateway-easypay-settings.php:359
+msgid "On Hold"
+msgstr "Em Espera"
+
+#: includes/wc-gateway-easypay-settings.php:379
+#: includes/wc-gateway-easypay-settings.php:395
+msgid "Payments Settings"
+msgstr "Configurações dos Pagamentos"
+
+#: includes/wc-gateway-easypay-settings.php:387
+msgid "Go to the WooCommerce settings to manage the payment methods"
+msgstr ""
+"Ir para as configurações do WooCommerce para gerir os meios de pagamento"
+
+#: includes/wc-gateway-easypay-settings.php:409
+msgid "easypay Configurations"
+msgstr "Configurações easypay"
+
+#: includes/wc-gateway-easypay-settings.php:417
+msgid "Configurations that you must perform on your easypay account."
+msgstr "Configurações que deve realizar na sua conta easypay."
+
+#: includes/wc-gateway-easypay-settings.php:421
+msgid "Go to \"Webservices\" > \"URL Configuration\""
+msgstr "Ir a \"Webservices\" > \"Configurações de URL\""
+
+#: includes/wc-gateway-easypay-settings.php:433
+msgid "Store Connection"
+msgstr "Ligação da Loja"
+
+#: includes/wc-gateway-easypay-settings.php:441
+msgid "Go to the easypay backoffice and link your store."
+msgstr "Aceda ao backoffice easypay e adicione a sua loja."
+
+#: includes/wc-gateway-easypay-settings.php:444
+msgid "Note:"
+msgstr "Nota:"
+
+#: includes/wc-gateway-easypay-settings.php:445
+msgid ""
+"If the sandbox checkbox is active, you are establishing a connection within "
+"the sandbox platform."
+msgstr ""
+"Se a sandbox estiver ativa, estará a estabelecer uma ligação dentro da "
+"plataforma de sandbox."
+
+#: includes/wc-gateway-easypay-settings.php:455
+msgid "View / Create Connection"
+msgstr "Ver / Criar Ligação"
+
+#: includes/wc-gateway-easypay-settings.php:459
+msgid "PRODUCTION"
+msgstr "PRODUÇÃO"
+
+#: includes/wc-gateway-easypay-settings.php:481
+msgid "Tutorial"
+msgstr "Manual"
+
+#: includes/wc-gateway-easypay-settings.php:489
+msgid ""
+"Click the link to view the full tutorial on how to configure the plugin."
+msgstr ""
+"Clique no link para ver o tutorial completo sobre como configurar o plugin."
+
+#: includes/wc-gateway-easypay-settings.php:497
+msgid "View Tutorial"
+msgstr "Ver Tutorial"
+
+#: includes/wc-gateway-easypay-settings.php:509
+msgid "Save Settings"
+msgstr "Gravar Configurações"
+
+#: includes/wc-gateway-easypay-settings.php:549
+msgid "Error: Please fill the required field: Connection Key."
+msgstr "Erro: Preencha o campo obrigatório: Chave de Ligação."
+
+#: includes/wc-gateway-easypay-settings.php:610
+msgid "Your settings have been saved."
+msgstr "As suas configurações foram gravadas."
+
+#: includes/wc-gateway-easypay-settings.php:636
+msgid "Payment Methods Image"
+msgstr "Imagem dos Meios de Pagamento"
+
+#: includes/wc-gateway-easypay-settings.php:638
+msgid "Choose Image"
+msgstr "Escolher Imagem"
+
+#: includes/wc-gateway-easypay-settings.php:750
+msgid "Payment Methods and Plugin Settings Added successfully"
+msgstr "Meios de Pagamento adicionados com sucesso"
+
+#: includes/wc-gateway-mbway-checkout.php:51
+#: includes/woocommerce-blocks/mbway/src/index.js:2
+msgid "MB Way (easypay)"
+msgstr "MB Way (easypay)"
+
+#: includes/wc-gateway-mbway-checkout.php:53
+#: includes/wc-gateway-mbway-checkout.php:223
+msgid "Automatic payment with approval in the MB Way app."
+msgstr "Pagamento automático com aprovação na App MB Way."
+
+#: includes/wc-gateway-mbway-checkout.php:197
+msgid "Enable MB Way Payment Gateway."
+msgstr "Ativar o pagamento do MB Way."
+
+#: includes/wc-gateway-mbway-checkout.php:253
+msgid "MB Way Settings"
+msgstr "Configurações MB Way"
+
+#: includes/wc-gateway-mbway-checkout.php:255
+msgid ""
+"Enter the payment information and receive a notification in the MB Way app "
+"to approve."
+msgstr ""
+"Insira a informação para o pagamento e receba uma notificação na App MB Way "
+"para aprovar."
+
+#: includes/wc-gateway-multibanco-checkout.php:51
+msgid "Multibanco Reference (easypay)"
+msgstr "Referência Multibanco (easypay)"
+
+#: includes/wc-gateway-multibanco-checkout.php:53
+#: includes/wc-gateway-multibanco-checkout.php:221
+msgid ""
+"Receive a Multibanco reference that you can pay through your online banking "
+"or at an ATM"
+msgstr ""
+"Receba uma referência multibanco que pode pagar no seu homebanking ou ATM"
+
+#: includes/wc-gateway-multibanco-checkout.php:195
+msgid "Enable Ref. Multibanco Payment."
+msgstr "Ativar o pagamento com Referência Multibanco."
+
+#: includes/wc-gateway-multibanco-checkout.php:209
+msgid "Payment with Ref. Multibanco"
+msgstr "Pagamento com Ref. Multibanco"
+
+#: includes/wc-gateway-multibanco-checkout.php:251
+msgid "Ref. Multibanco Settings"
+msgstr "Configurações Ref. Multibanco"
+
+#: includes/wc-gateway-multibanco-checkout.php:253
+msgid "Ref. Multibanco works by giving the user the payment information."
+msgstr ""
+"A Ref. Multibanco funciona disponibilizando os dados para pagamento ao "
+"utilizador."
+
+#: includes/wc-gateway-santanderconsumer-checkout.php:52
+#: includes/woocommerce-blocks/santanderconsumer/src/index.js:2
+msgid "Santander Consumer Finance (easypay)"
+msgstr "Santander Consumer Finance (easypay)"
+
+#: includes/wc-gateway-santanderconsumer-checkout.php:54
+#: includes/wc-gateway-santanderconsumer-checkout.php:224
+msgid ""
+"Pay with online credit in a simple and fast way directly with Santander "
+"Consumer Finance."
+msgstr ""
+"Pague com crédito online de forma simples e rápida diretamente com o "
+"Santander Consumer Finance."
+
+#: includes/wc-gateway-santanderconsumer-checkout.php:198
+msgid "Enable Santander Consumer Payment."
+msgstr "Ativar o pagamento com Santander Consumer Finance."
+
+#: includes/wc-gateway-santanderconsumer-checkout.php:254
+msgid "Santander Consumer Finance Settings"
+msgstr "Configurações do Santander Consumer Finance"
+
+#: includes/wc-gateway-santanderconsumer-checkout.php:256
+msgid ""
+"Santander Consumer standard works by sending the user to Santander Consumer "
+"Finance APP."
+msgstr ""
+"O Santander Consumer redireciona o utilizador para a APP do Santander "
+"Consumer Finance."
+
+#: includes/wc-gateway-universoflex-checkout.php:52
+#: includes/woocommerce-blocks/universoflex/src/index.js:2
+msgid "Universo Flex (easypay)"
+msgstr "Universo Flex (easypay)"
+
+#: includes/wc-gateway-universoflex-checkout.php:54
+#: includes/wc-gateway-universoflex-checkout.php:222
+msgid ""
+"Installment payment in 3X interest-free or 6/12X with interest directly "
+"through the Universo app"
+msgstr ""
+"Pagamento parcelado em 3X sem juros ou 6/12 X com juros diretamente na App "
+"Universo"
+
+#: includes/wc-gateway-universoflex-checkout.php:196
+msgid "Enable Universo Flex Payment."
+msgstr "Ativar o pagamento com Universo Flex."
+
+#: includes/wc-gateway-universoflex-checkout.php:252
+msgid "Universo Flex Settings"
+msgstr "Configurações do Universo Flex"
+
+#: includes/wc-gateway-universoflex-checkout.php:254
+msgid "Universo Flex standard works by sending the user to Universo APP."
+msgstr ""
+"O Universo Flex funciona redirecionando o utilizador para APP Universo."
+
+#: includes/wc-gateway-virtualiban-checkout.php:51
+#: includes/woocommerce-blocks/virtualiban/src/index.js:2
+msgid "Virtual IBAN (easypay)"
+msgstr "IBAN Digital (easypay)"
+
+#: includes/wc-gateway-virtualiban-checkout.php:53
+#: includes/wc-gateway-virtualiban-checkout.php:221
+msgid "A simple bank transfer"
+msgstr "Uma simples Transferência Bancária"
+
+#: includes/wc-gateway-virtualiban-checkout.php:195
+msgid "Enable Virtual IBAN Payment Gateway."
+msgstr "Ativar o pagamento IBAN Digital."
+
+#: includes/wc-gateway-virtualiban-checkout.php:251
+msgid "Virtual IBAN Settings"
+msgstr "Configurações do IBAN Digital"
+
+#: includes/wc-gateway-virtualiban-checkout.php:253
+msgid ""
+"Receive the IBAN to make a bank transfer, without the need to send a payment "
+"receipt."
+msgstr ""
+"Receba o IBAN para fazer uma transferência bancária, sem precisar de enviar "
+"comprovativo de pagamento."
+
+#: includes/woocommerce-blocks/easypay/src/index.js:2
+msgid "easypay standard Checkout"
+msgstr "easypay Checkout Padrão"
+
+#: includes/woocommerce-blocks/multibanco/src/index.js:2
+msgid "Multibanco (easypay)"
+msgstr "Multibanco (easypay)"
+
+#: public/easypay-form.php:25
+msgid "Invalid order details"
+msgstr "Detalhes da Encomenda inválidos"
+
+#: public/easypay-form.php:42
+msgid "Pay Now"
+msgstr "Pague agora"
+
+#. Plugin Name of the plugin/theme
+msgid "easypay Gateway Checkout for WooCommerce"
+msgstr "Checkout de Pagamentos easypay para WooCommerce"
+
+#. Description of the plugin/theme
+msgid ""
+"easypay Payment Checkout for WooCommerce - Don't leave for tomorrow what you "
+"can receive today"
+msgstr ""
+"easypay Checkout para WooCommerce - Não deixe para amanhã o que você pode "
+"ganhar hoje"
+
+#. Author URI of the plugin/theme
+msgid "https://easypay.pt/en"
+msgstr "https://easypay.pt"
+
+#~ msgid "Order is being processed"
+#~ msgstr "Encomenda está a ser processada"
+
+#~ msgid "Order is completed"
+#~ msgstr "Encomenda finalizada"
+
+#~ msgid "Pay with Santander Consumer Finance"
+#~ msgstr "Pague com Santander Consumer Finance"
+
+#~ msgid "MBWay (easypay)"
+#~ msgstr "MBWay (easypay)"
+
+#~ msgid "MBWay"
+#~ msgstr "MBWay"
+
+#~ msgid "Virtual IBAN"
+#~ msgstr "IBAN Digital"
+
+#~ msgid "Pay with Credit Visa & Mastercard Card"
+#~ msgstr "Pague com Cartões Visa & Mastercard"
+
+#~ msgid "Direct Debit works by asking the user to enter payment information."
+#~ msgstr ""
+#~ "O Débito Direto funciona por pedir ao utilizador para inserir os dados de "
+#~ "pagamento."
+
+#~ msgid "Pay with MBWay"
+#~ msgstr "Pague com MBWay"
+
+#~ msgid ""
+#~ "MBWay standard works by sending the user to MBWay to enter their payment "
+#~ "information."
+#~ msgstr ""
+#~ "O MBWay funciona por redirecionar o utilizador para o gateway da easypay, "
+#~ "ai insere a informação para o pagamento."
+
+#~ msgid "Pay with Ref. Multibanco"
+#~ msgstr "Pague com Referência Multibanco"
+
+#~ msgid "Pay with Universo Flex"
+#~ msgstr "Pague com Universo Flex"
+
+#~ msgid "Pay with Virtual IBAN"
+#~ msgstr "Pague com IBAN Digital"
+
+#~ msgid ""
+#~ "easypay standard checkout works by addressing the user to easypay´s "
+#~ "gateway to enter their payment information."
+#~ msgstr ""
+#~ "easypay Checkout Padrão funciona por redirecionar o utilizador para a "
+#~ "gateway da easypay onde insere a informação para o pagamento."
+
+#~ msgid "Credit Card"
+#~ msgstr "Cartão de Crédito"
+
+#~ msgid "Débito Direto"
+#~ msgstr "Débito Direto"
+
+#~ msgid "Multibanco"
+#~ msgstr "Multibanco"
+
+#~ msgid ""
+#~ "Débito Direto standard works by sending the user to débito direto to "
+#~ "enter their payment information."
+#~ msgstr ""
+#~ "O Débito Direto funciona por redirecionar o utilizador para o gateway da "
+#~ "easypay, ai insere a informação para o pagamento."
+
+#, fuzzy
+#~| msgid "easypay standard"
+#~ msgid "easypay Standard"
+#~ msgstr "easypay Checkout Padrão"
+
+#~ msgid "Payment for Services via Multibanco"
+#~ msgstr "Pagamento de Serviços por Multibanco"
+
+#~ msgid "easypay checkout"
+#~ msgstr "easypay checkout"
+
+#~ msgid "Logo Image"
+#~ msgstr "Imagem dos Pagamentos"
+
+#~ msgid "Payment error: "
+#~ msgstr "Erro no pagamento"
+
+#~ msgid "Error on payment listings"
+#~ msgstr "Erro na listagem dos pagamentos"
+
+#~ msgid "Error on payment request"
+#~ msgstr "Erro no pedido do pagamento"
+
+#~ msgid "CIN"
+#~ msgstr "CIN"
+
+#~ msgid "User"
+#~ msgstr "Utilizador"
+
+#~ msgid "The USER of your easypay account."
+#~ msgstr "O Utilizador da sua conta Easypay"
+
+#~ msgid "Entity"
+#~ msgstr "Entidade"
+
+#~ msgid ""
+#~ "The ENTITY of your easypay account. <br/>Please refer to our commercial "
+#~ "department for more information."
+#~ msgstr ""
+#~ "Entidade associada á sua conta Easypay. <br />Por favor contacte o nosso "
+#~ "departamento comercial para mais informação."
+
+#~ msgid "Code"
+#~ msgstr "Código"
+
+#~ msgid ""
+#~ "Security Token, use this only if you have validation by code instead of "
+#~ "validation by IP."
+#~ msgstr ""
+#~ "Security Token, use this only if you have validation by code instead of "
+#~ "validation by IP."
+
+#~ msgid "Country"
+#~ msgstr "País"
+
+#~ msgid "Must be always PT."
+#~ msgstr "É obrigatório que seja PT."
+
+#~ msgid "Language"
+#~ msgstr "Idioma"
+
+#~ msgid "The language that the user should see on credit card gateway."
+#~ msgstr ""
+#~ "Idioma que o utilizador deverá ver quando for redireccionado para a "
+#~ "gateway de cartões de crédito."
+
+#~ msgid "Boleto Bancário"
+#~ msgstr "Boleto Bancário"
+
+#~ msgid "Gateway Testing"
+#~ msgstr "Testes"
+
+#~ msgid "Easypay sandbox can be used to test payments."
+#~ msgstr "A sandbox pode ser utilizada para testar os pagamentos."
+
+#~ msgid "Debug"
+#~ msgstr "Debug"
+
+#~ msgid "Enable logging"
+#~ msgstr "Activar logs."
+
+#~ msgid ""
+#~ "Log Easypay events such as API requests, the logs will be placed in "
+#~ "<code>woocommerce/logs/easypay.txt</code>"
+#~ msgstr ""
+#~ "Regista eventos tais como pedidos á API, os logs serão colocados em "
+#~ "<code>woocommerce/logs/easypay.txt</code>"
+
+#~ msgid "Visa detail URL"
+#~ msgstr "Visa detail URL"
+
+#~ msgid "Visa - Fwd URL"
+#~ msgstr "Visa - Fwd URL"
+
+#~ msgid "Boleto - Fwd URL"
+#~ msgstr "Boleto - Fwd URL"
+
+#~ msgid "Notification URL"
+#~ msgstr "Notification URL"
+
+#~ msgid "On your server"
+#~ msgstr "No seu servidor"
+
+#~ msgid "Cron Job"
+#~ msgstr "Cron Job"
+
+#~ msgid ""
+#~ "For Credit Card payment check you must create a cron job, we sugest you "
+#~ "config your cron job to call this file once a day."
+#~ msgstr ""
+#~ "Para verificar o pagamento com Cartão de Crédito precisa criar um cron "
+#~ "job, sugerimos-lhe que configure o seu cron job para executar este "
+#~ "ficheiro uma vez por dia."
+
+#~ msgid "Awaiting for reference payment."
+#~ msgstr "Aguardando pagamento de referência."
+
+#~ msgid ""
+#~ "An error has occurred while processing your payment, please try again. Or "
+#~ "contact us for assistance."
+#~ msgstr ""
+#~ "Ocorreu um erro durante o processamento do seu pagamento, por favor tente "
+#~ "novamente, ou contacte-nos para assistência."
+
+#~ msgid "Reference"
+#~ msgstr "Referência"
+
+#~ msgid "Value"
+#~ msgstr "Valor"
+
+#~ msgid ""
+#~ "<strong>Easypay Gateway Disabled</strong> Missing CIN. %sClick here to "
+#~ "configure.%s"
+#~ msgstr ""
+#~ "<strong>Módulo Easypay Desativado</strong> Falta o CIN. %sClique aqui "
+#~ "para configurar.%s"
+
+#~ msgid ""
+#~ "<strong>Easypay Gateway Disabled</strong> Missing USER. %sClick here to "
+#~ "configure.%s"
+#~ msgstr ""
+#~ "<strong>Módulo Easypay Desativado</strong> Falta o Utilizador. %sClique "
+#~ "aqui para configurar.%s"
+
+#~ msgid ""
+#~ "<strong>Easypay Gateway Disabled</strong> Missing ENTITY. %sClick here to "
+#~ "configure.%s"
+#~ msgstr ""
+#~ "<strong>Módulo Easypay Desativado</strong> Falta a Entidade. %sClique "
+#~ "aqui para configurar.%s"
+
+#~ msgid ""
+#~ "<strong>Easypay Gateway Disabled</strong> Missing COUNTRY. %sClick here "
+#~ "to configure.%s"
+#~ msgstr ""
+#~ "<strong>Módulo Easypay Desativado</strong> Falta o País. %sClique aqui "
+#~ "para configurar.%s"
+
+#~ msgid ""
+#~ "<strong>Easypay Gateway Disabled</strong> Missing LANGUAGE. %sClick here "
+#~ "to configure.%s"
+#~ msgstr ""
+#~ "<strong>Módulo Easypay Desativado</strong> Falta o Idioma. %sClique aqui "
+#~ "para configurar.%s"
+
+#~ msgid ""
+#~ "<strong>Easypay Gateway Disabled</strong> The currency your cart is using "
+#~ "is not valid, please set to Euro (EUR) if you want to use Easypay "
+#~ "payments. %sClick here to configure.%s"
+#~ msgstr ""
+#~ "<strong>Módulo Easypay Desativado</strong> A moeda do seu carrinho não é "
+#~ "suportada, por favor altere para Euro (EUR) se quiser utilizar pagamentos "
+#~ "através da Easypay. %sClique aqui para configurar.%s"
+
+#~ msgid "Fiscal Number"
+#~ msgstr "NIF"
+
+#~ msgctxt "placeholder"
+#~ msgid "Fiscal Number"
+#~ msgstr "NIF"
+
+#~ msgid "Cancel Purchase"
+#~ msgstr "Cancelar Compra"
+
+#~ msgid "Authorization has timed out! Your order will be cancelled!"
+#~ msgstr "Autorização expirou! A sua encomenda vai ser cancelada!"
+
+#~ msgid ""
+#~ "Authorization has been paid for! Your order will be shipped as soon as "
+#~ "possible!"
+#~ msgstr ""
+#~ "Autorização paga! A sua encomenda vai ser expedida o mais depressa "
+#~ "possível"
+
+#~ msgid "Request failed!"
+#~ msgstr "Pedido falhou!"
+
+#~ msgid "Your order is cancelled"
+#~ msgstr "A sua encomenda foi cancelada"
+
+#~ msgid "Cannot cancel order!"
+#~ msgstr "Não foi possível cancelar a sua encomenda"
+
+#~ msgid "Authorization voided! Your order will be cancelled!"
+#~ msgstr "Autorização cancelada! A sua encomenda foi cancelada"
+
+#~ msgid "Authorization declined! Your order will be cancelled!"
+#~ msgstr "Autorização cancelada! A sua encomenda foi cancelada"
